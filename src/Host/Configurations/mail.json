@@ -1,0 +1,10 @@
+{
+  "MailSettings": {
+    "DisplayName": "Cleanception",
+    "From": "cleanception@test.com",
+    "Host": "smtp.gmail",
+    "Password": "123456789",
+    "Port": 587,
+    "UserName": "cleanception@test.com"
+  }
+}

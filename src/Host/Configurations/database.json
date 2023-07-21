@@ -1,0 +1,6 @@
+{
+  "DatabaseSettings": {
+    "DBProvider": "mssql",
+    "ConnectionString": "Server=DESKTOP-L0FLNSH\\MSSQLSERVER2;Database=Cleanception_DB;User=sa;Password=123456789;MultipleActiveResultSets=true;TrustServerCertificate=True;"
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "Title": "New user",
+    "Message": "Customer with name \"[Name]\" has been registered",
+    "NotificationMethod": "Notification",
+    "NotificationTrigger": "NewUser",
+    "RoleId": "Admin",
+    "IsActive": true
+  },
+  {
+    "Title": "Greeting user",
+    "Message": "Dear \"[Name]\", we are happy as you are now part of our community !",
+    "NotificationMethod": "Notification",
+    "NotificationTrigger": "NewUser",
+    "IsSelfTrigger": true,
+    "IsActive": true
+  }
+]

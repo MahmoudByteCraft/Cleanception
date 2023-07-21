@@ -1,0 +1,32 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: api
+    environment:
+      - "DatabaseSettings__ConnectionString=Server=185.194.124.99,1433;Database=testdb;\
+        User=sa;Password=P@ssw0rd@2022;MultipleActiveResultSets=true"
+      - "DatabaseSettings__DBProvider=mssql"
+      - "HangfireSettings__Storage__ConnectionString=Server=185.194.124.99,1433;Database=testdb;\
+        User=sa;Password=P@ssw0rd@2022;MultipleActiveResultSets=true"
+      - "HangfireSettings__Storage__StorageProvider=mssql"
+      - "ASPNETCORE_Kestrel__Certificates__Default__Password=SuperSecurePasswor\
+        d123!"
+      - "ASPNETCORE_Kestrel__Certificates__Default__Path=/https/DN.Host.pfx"
+    volumes:
+      - ~/.aspnet/https:/https:ro
+    ports:
+      - "5050:5050"
+      - "5060:5060"
+    depends_on:
+      - cache
+    restart: on-failure
+    #extra_hosts:
+    #  - "host.docker.internal:host-gateway"
+  cache:
+    image: redis:latest
+    restart: always
+    ports:
+      - '6379:6379'
+    command: redis-server --save 20 1 --loglevel warning --requirepass eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81

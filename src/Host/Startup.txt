@@ -1,0 +1,15 @@
+1- Change the database connection string in (database.json)
+2- Change the hangfire connection string in (hangfire.json) you must create the hangfire database manually
+
+
+
+
+
+
+--Ef Migration Commands--
+
+Add-Migration Init -Context Cleanception.Infrastructure.Persistence.Context.ApplicationDbContext -o Migrations\Application
+
+update-database  -Context Cleanception.Infrastructure.Persistence.Context.ApplicationDbContext
+
+remove-migration -Context Cleanception.Infrastructure.Persistence.Context.ApplicationDbContext

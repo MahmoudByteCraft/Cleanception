@@ -1,0 +1,18 @@
+using System.Text.Json.Serialization;
+using Cleanception.Application.Common.Messaging;
+
+namespace Cleanception.Application.Identity.Users;
+
+public class CreateUserRequest : ICommand<string>
+{
+    public string FirstName { get; set; } = default!;
+    public string MiddleName { get; set; } = default!;
+    public string LastName { get; set; } = default!;
+    public string Email { get; set; } = default!;
+    public string UserName { get; set; } = default!;
+    public string Password { get; set; } = default!;
+    public string ConfirmPassword { get; set; } = default!;
+    public string? PhoneNumber { get; set; }
+    [JsonIgnore]
+    public string Origin { get; set; } = default!;
+}

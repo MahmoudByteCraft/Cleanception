@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Algeria",
+    "dialCode": "+213",
+    "code": "DZ",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/dz.svg",
+    "Continent": "Africa"
+  },
+  {
+    "name": "Argentina",
+    "dialCode": "+54",
+    "code": "AR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ar.svg",
+    "Continent": "South America"
+  },
+  {
+    "name": "Australia",
+    "dialCode": "+61",
+    "code": "AU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/au.svg",
+    "Continent": "Australia"
+  },
+  {
+    "name": "Brazil",
+    "dialCode": "+55",
+    "code": "BR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/br.svg",
+    "Continent": "South America"
+  },
+  {
+    "name": "Canada",
+    "dialCode": "+1",
+    "code": "CA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ca.svg",
+    "Continent": "North America"
+  },
+  {
+    "name": "China",
+    "dialCode": "+86",
+    "code": "CN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/cn.svg",
+    "Continent": "Asia"
+  },
+  {
+    "name": "Egypt",
+    "dialCode": "+20",
+    "code": "EG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/eg.svg",
+    "Continent": "Africa"
+  },
+  {
+    "name": "France",
+    "dialCode": "+33",
+    "code": "FR",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/fr.svg",
+    "Continent": "Europe"
+  },
+  {
+    "name": "Germany",
+    "dialCode": "+49",
+    "code": "DE",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/de.svg",
+    "Continent": "Europe"
+  },
+  {
+    "name": "India",
+    "dialCode": "+91",
+    "code": "IN",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/in.svg",
+    "Continent": "Asia"
+  },
+  {
+    "name": "Italy",
+    "dialCode": "+39",
+    "code": "IT",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/it.svg",
+    "Continent": "Europe"
+  },
+  {
+    "name": "Japan",
+    "dialCode": "+81",
+    "code": "JP",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/jp.svg",
+    "Continent": "Asia"
+  },
+  {
+    "name": "Mexico",
+    "dialCode": "+52",
+    "code": "MX",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/mx.svg",
+    "Continent": "North America"
+  },
+  {
+    "name": "Nigeria",
+    "dialCode": "+234",
+    "code": "NG",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ng.svg",
+    "Continent": "Africa"
+  },
+  {
+    "name": "Russia",
+    "dialCode": "+7",
+    "code": "RU",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/ru.svg",
+    "Continent": "Europe/Asia"
+  },
+  {
+    "name": "South Africa",
+    "dialCode": "+27",
+    "code": "ZA",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/za.svg",
+    "Continent": "Africa"
+  },
+  {
+    "name": "Spain",
+    "dialCode": "+34",
+    "code": "ES",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/es.svg",
+    "Continent": "Europe"
+  },
+  {
+    "name": "United Kingdom",
+    "dialCode": "+44",
+    "code": "GB",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/gb.svg",
+    "Continent": "Europe"
+  },
+  {
+    "name": "United States",
+    "dialCode": "+1",
+    "code": "US",
+    "flag": "https://cdn.kcak11.com/CountryFlags/countries/us.svg",
+    "Continent": "North America"
+  }
+]

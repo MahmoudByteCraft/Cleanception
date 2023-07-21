@@ -1,0 +1,12 @@
+{
+  "SwaggerSettings": {
+    "Enable": true,
+    "Title": "Cleanception WebAPI",
+    "Version": "v1",
+    "Description": "Cleanception Is A .NET 7 Clean Architecture Template",
+    "ContactName": "Mahmoud Sabrah",
+    "ContactEmail": "mahmoudsabrahsocial@gmail.com",
+    "ContactUrl": "https://www.linkedin.com/in/mahmoud-sabrah-69772823b/",
+    "License": false
+  }
+}

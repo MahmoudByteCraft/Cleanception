@@ -1,0 +1,8 @@
+{
+  "SMSSettings": {
+    "Enabled": false,
+    "FromPhoneNumber": "-",
+    "AccountSid": "-",
+    "AuthToken": "-"
+  }
+}
